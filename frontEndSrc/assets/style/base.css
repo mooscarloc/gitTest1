@@ -1,0 +1,198 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block
+}
+
+body,
+html {
+  line-height: 1;
+  margin: 0 auto;
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+/* custom */
+
+a {
+  color: #7e8c8d;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none
+}
+
+li {
+  list-style: none
+}
+
+i{
+  font-style: normal;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+button:focus{
+  outline: none;
+}
+.el-table td, .el-table th{
+  padding:3px 0 !important;
+  background: none;
+}
+
+
+.page{
+  width: calc(100% - 0);
+  background-color: #f5f6f9;
+  /*margin-left: 180px;*/
+  padding-bottom: 20px;
+}
+
+.page-header{
+  padding: 20px;
+  background: #fff;
+  position: sticky;
+  top: 60px;
+  z-index: 100;
+}
+
+.page-body{
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+}
+.cell{
+  text-align: center;
+  color: #444;
+  padding: 2px 0 !important;
+  line-height: 18px !important;
+  font-size: 12px !important;
+}
+
+.input{
+  width: 250px;
+}
+.amap-marker-label{
+  padding: 0;
+  line-height: 20px;
+  background-color: #fff;
+  color: orangered;
+  border: 1px solid skyblue;
+  padding: 0 2px;
+}
