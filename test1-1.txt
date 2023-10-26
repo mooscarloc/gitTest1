@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-add t `
-
-master added this line 
-=======
-add  
-alright let's leave it lol
-b1 added this line lol!`
->>>>>>> b1
