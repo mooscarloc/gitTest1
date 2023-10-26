@@ -1,7 +1,6 @@
 package conf
 import (
 	"github.com/astaxie/beego"
-
 )
 
 type AppConfig struct {
